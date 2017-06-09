@@ -1,0 +1,19 @@
+default_view:
+ view: yes
+
+lights:
+  name: lights
+  view: yes
+  entities:
+    - group.bedroomA
+    - group.bedroomB
+    - group.livingRoom
+    - group.kitchen
+    - group.lobby
+
+Living Room:
+   - light.mainLamp
+   - light.ikeaLampionLamp
+   - light.osmc
+
+
